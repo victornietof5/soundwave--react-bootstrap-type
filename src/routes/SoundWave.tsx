@@ -9,16 +9,13 @@ import { Container } from 'react-bootstrap'
 
 export const SoundWave = () => {
   return (
-    
-    <section>
-      <header><Menu /></header>
-      <Container>
-        <FellTheMusic />
-        
-        </Container>
 
-        </section>
-    
+    <section>
+      <Container>
+        <header><Menu /></header>
+        <FellTheMusic />
+      </Container>
+    </section>
 
 
   )
