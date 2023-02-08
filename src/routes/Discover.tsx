@@ -1,6 +1,7 @@
 import React from 'react'
+import Footer from '../components/Footer'
 import Menu from '../components/menu'
-import Footer from '../components/footer'
+
 
 export const Discover = () => {
     return (<>

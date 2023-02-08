@@ -1,4 +1,7 @@
+/* reset styles */
+* {font-family:'poppins', sans-serif;
+font-size: 1.2rem;}
 
 body{
-   background-color: brown;
+  background-color: #2F303A;
 }

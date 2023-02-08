@@ -1,23 +1,13 @@
-import { Route, Routes } from 'react-router-dom';
-import { Discover } from './components/Discover';
-import { Join } from './components/JoinButton';
-import FeelMusic from './components/FeelMusic';
-import { Layout } from './components/Layout';
-import 
-
-
+import React from 'react';
+import './App.css';
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route element={<Layout />} >
-          <Route path='/soundwave' element={<FeelMusic />} />,
-          <Route path='/discover' element={<Discover />} />,
-          <Route path='/join' element={<Join />} />,
-        </Route>
-      </Routes>
-    </>
+    <div className="App">
+      <header className="App-header">
+   
+      </header>
+    </div>
   );
 }
 
